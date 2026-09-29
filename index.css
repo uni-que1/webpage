@@ -1,0 +1,22 @@
+
+video{
+   height: auto;
+   width: auto;
+    position: absolute;
+   
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 20px;
+}
+img{
+    transition: 2s all;
+    border-radius: 50px 50px;
+}
+img:hover{
+transform: scale(0.9);
+}
+section{
+    margin-top: -50px;
+}
